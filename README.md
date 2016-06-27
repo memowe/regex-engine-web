@@ -1,3 +1,8 @@
+REE Web Interface
+=================
+
+This is a simple web interface for my toy regular expression engine [REE](https://algo-git.uni-muenster.de/memowe/regex-engine).
+
 ## LICENSE
 
 Copyright (c) 2016 Mirko Westermeier
