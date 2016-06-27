@@ -1,0 +1,3 @@
+[submodule "regex-engine"]
+	path = regex-engine
+	url = git@ivv5git01.uni-muenster.de:memowe/regex-engine.git
