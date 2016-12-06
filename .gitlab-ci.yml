@@ -1,5 +1,6 @@
 before_script:
     - git submodule update --init
+    - cpanm --installdeps --notest .
     - perl Makefile.PL
     - make
 
@@ -9,4 +10,3 @@ run_test_suite:
     stage: test
     script:
         - make test
-        - make realclean
