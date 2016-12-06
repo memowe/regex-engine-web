@@ -9,7 +9,7 @@ use Test::Mojo;
 # prepare
 use FindBin '$Bin';
 use lib "$Bin/../regex-engine/lib";
-require "$Bin/../regex-engine-web.pl";
+require "$Bin/../regex-engine-web";
 my $t = Test::Mojo->new;
 
 # test form
