@@ -1,0 +1,12 @@
+% layout 'default';
+% title 'Regular Expression Engine Web';
+<h1><%= title %></h1>
+%= form_for match => (method => 'post') => begin
+    <p>
+        %= label_for regex => 'Regular Expression:'
+        %= text_field regex => param('regex') => (id => 'regex')
+        %= label_for input => 'Input:'
+        %= text_field input => param('input') => (id => 'input')
+    </p>
+    <p><%= submit_button 'Try to match!' %></p>
+% end

@@ -1,0 +1,15 @@
+% layout 'default';
+% title 'REE Matching Result';
+<h1><%= title %></h1>
+<table>
+    <tr><th>Regular Expression</th><td><code><%= $regex %></code></td></tr>
+    <tr><th>Input</th><td><code><%= $input %></code></td></tr>
+    <tr><th>Match</th><td><%= $success ? 'Yes' : 'No' %></td></tr>
+</table>
+<p>NFA:</p>
+<pre><code><%= $ree->nfa_representation %></code></pre>
+%= form_for home => (method => 'post') => begin
+    %= hidden_field regex => $regex
+    %= hidden_field input => $input
+    %= submit_button 'Try again!'
+% end
