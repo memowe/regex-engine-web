@@ -1,5 +1,4 @@
-REE Web Interface
-=================
+# REE Web Interface [![Build Status](https://travis-ci.org/memowe/regex-engine-web.svg?branch=master)](https://travis-ci.org/memowe/regex-engine-web)
 
 This is a simple web interface for my toy regular expression engine [REE](https://algo-git.uni-muenster.de/memowe/regex-engine).
 
